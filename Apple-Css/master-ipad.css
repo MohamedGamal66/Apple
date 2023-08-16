@@ -1,0 +1,123 @@
+body{
+    background-image: linear-gradient(180deg,black,rgb(50, 49, 49),#e93e63);
+    background-repeat: no-repeat;
+    color: aliceblue;
+    font-family: sans-serif;
+    margin: 0px;
+    box-sizing: border-box;
+    }
+    /* this is contanir style */
+.contan {
+    width: 100%;
+    height: fit-content;
+    position: relative;
+
+}
+/* this a header style */
+.header {
+    width: 100%px;
+    height: 40px;
+    margin: 8px 18px;
+    box-shadow: 0px 0px 5px aliceblue;
+    border-radius: 15px;
+    
+}
+.contan .header .nav {
+    width: inherit;
+    height: inherit;
+    padding: 0px;
+    margin: 0px auto;
+    list-style: none;
+}
+.contan .header .nav li {
+    padding: 8px 0px;
+    float: left;
+    text-align: center;
+    font-size: 18px;
+    width: calc((100% - 55px)/11);
+    cursor: pointer;
+    margin-left: 5px;
+
+}
+.contan .header .nav li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+.contan .header .nav li :hover{
+    color: #e93e63; cursor: pointer;
+}
+.contan .header .nav li img {
+    height: 25px;
+    width: 25px;
+}
+/* this a content-1 style */
+.content-1 {
+    width: 100%;
+    margin: 50px 0px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    height: 600px;
+    box-shadow: 0px 0px 15px aliceblue;
+    position: relative;
+}
+.content-1 p {
+    line-height: 1.5;
+    text-align: center;
+    font-weight: bolder;
+    padding: 100px 0px;
+}
+.content-1 p .two {
+    font-size: 50px;
+    text-shadow: 0px 0px 4px aliceblue;
+}
+.content-1 p .one {
+    font-size: 30px;
+    text-shadow: 0px 0px 4px aliceblue;
+}
+.content-1 p a {
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(0, 179, 255);
+}
+.content-1 p .three {
+    box-shadow: 0px 0px 3px rgb(0, 0, 0);
+    padding: 3px;
+    border-radius: 10px;
+    background-color: rgb(217, 229, 240);
+}
+.content-1 p .three:hover {
+    border: 1.5px solid aliceblue;
+    
+}
+.content-1 .img-1 {
+    width: 430px;
+    height: 430px;
+    box-shadow: 0px 0px 35px aliceblue;
+    border-top-left-radius: 23px;
+    border-bottom-left-radius: 20px;
+    position: absolute;
+    top: 80px;
+    right: 0px;
+    background-image: url(../Apple-media/346045833_916871432878538_8358674317698522567_12n-removebg-preview.jpg);
+    background-position: -30px -43px ;
+    background-repeat: no-repeat;
+    background-size: 500px 500px;
+    
+
+}
+.content-1 .img-2 {
+    width: 430px;
+    height: 430px;
+    box-shadow: 0px 0px 35px aliceblue;
+    border-top-right-radius: 23px;
+    border-bottom-right-radius: 20px;
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    background-image: url(../Apple-media/ipados16-1024x576-removebg-preview.jpg);
+    background-position: -225px -40px ;
+    background-repeat: no-repeat;
+    background-size: 810px 510px;
+    
+
+}

@@ -1,0 +1,221 @@
+body{
+    background-image: linear-gradient(180deg,black,rgb(50, 49, 49),#e93e63);
+    background-repeat: no-repeat;
+    color: aliceblue;
+    font-family: sans-serif;
+    box-sizing:border-box;
+    margin: 0px;
+    }
+    /* this is style header */
+    .header {
+        width: 100%px;
+        height: 40px;
+        margin: 8px 18px;
+        box-shadow: 0px 0px 5px aliceblue;
+        border-radius: 15px;
+        
+    }
+    .contan{
+        width: 100%;
+        height: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    .contan .header .nav {
+        width: inherit;
+        height: inherit;
+        padding: 0px;
+        margin: 0px auto;
+        list-style: none;
+    }
+    .contan .header .nav li {
+        padding: 8px 0px;
+        float: left;
+        text-align: center;
+        font-size: 18px;
+        width: calc((100% - 55px)/11);
+        cursor: pointer;
+        margin-left: 5px;
+    
+    }
+    .contan .header .nav li a {
+        text-decoration: none;
+        color: aliceblue;
+    }
+    .contan .header .nav li :hover{
+        color: #e93e63; cursor: pointer;
+    }
+    .contan .header .nav li img {
+        height: 25px;
+        width: 25px;
+    }
+    /* this is style adj */
+   .contan .adj {
+    width: 100%;
+    height: 400px;
+    margin: 50px 0px;
+    background-color: rgba(0, 0, 0, 0.611);
+    box-shadow: 0px 0px 15px aliceblue;
+   }
+   .contan .adj p {
+    padding-top: 60px;
+    text-align: center;
+    font-size: 60px;
+    line-height: 1.5;
+    text-shadow: 0px 0px 6px aliceblue;
+   }
+   .contan .adj button {
+    width: 290px;
+    height: 40px;
+    margin-left: 530px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 136, 255);
+    color: rgb(0, 136, 255);
+    background-color: black;
+
+   }
+   .contan .adj button:hover {
+    color: #e93e63;
+    cursor: pointer;
+    border: 2px solid #e93e63;
+    box-shadow: 0px 0px 15px aliceblue;
+   }
+   /* this is style prand-1*/
+   .contan .prand-1 {
+    width: 100%;
+    height: 695px;
+    margin: 50px 0px;
+    background-image: url(../Apple-media/og-macbook-pro-202301.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 0px 15px aliceblue;
+   }
+   .contan .prand-1 p {
+    text-align: center;
+    padding: 10px ;
+    font-size: 20px;
+    text-transform: capitalize;
+    line-height: 1.4;
+   }
+   .contan .prand-1  .one {
+    color: orangered;
+   }
+   .contan .prand-1 .two {
+    font-size: 50px;
+    font-style: bold;
+   }
+   .contan .prand-1 .three {
+    font-size: 15px;
+   }
+   .contan .prand-1 p button {
+    width: 50px;
+    height: 30px;
+    padding: 0px;
+    background-color: rgb(0, 102, 255);
+    border: 0.5px solid aliceblue;
+    border-radius: 10px;
+    color: aliceblue;
+   }
+   .contan .prand-1 p button:hover{
+    cursor: pointer;
+    border: 1px solid black;
+    color: black;
+   }
+   .contan .prand-1 a {
+    text-decoration: none;
+    margin-left: 30px;
+   }
+   .contan .prand-1 a:hover {
+    color: aliceblue;
+   }
+   /* this is style prand-2 */
+   .contan .prand-2 {
+    width: 100%;
+    height: 750px;
+    margin: 50px 0px;
+    background-image: url(../Apple-media/mac-mini-og-image-202301.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 0px 15px aliceblue;
+   }
+   .contan .prand-2 p {
+    text-align: center;
+    padding: 10px ;
+    font-size: 20px;
+    text-transform: capitalize;
+    line-height: 1.4;
+   }
+   .contan .prand-2  .one {
+    color: orangered;
+   }
+   .contan .prand-2 .two {
+    font-size: 50px;
+    font-style: bold;
+   }
+   .contan .prand-2 .three {
+    font-size: 15px;
+   }
+   .contan .prand-2 p button {
+    width: 50px;
+    height: 30px;
+    padding: 0px;
+    background-color: rgb(0, 102, 255);
+    border: 0.5px solid aliceblue;
+    border-radius: 10px;
+    color: aliceblue;
+   }
+   .contan .prand-2 p button:hover{
+    cursor: pointer;
+    border: 1px solid black;
+    color: black;
+   }
+   .contan .prand-2 a {
+    text-decoration: none;
+    margin-left: 30px;
+   }
+   .contan .prand-2 a:hover {
+    color: aliceblue;
+   }
+   /* this is style prand-3 */
+   .contan .prand-3 {
+    width: 100%;
+    height: 620px;
+    margin: 50px 0px;
+    background-image: url(../Apple-media/virtual-studio-create-creature-vocals-skywalker-sound-050922-wwvirtual-studio-create-creature-vocals-skywalker-sound-050922-ww_16x9.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    box-shadow: 0px 0px 25px aliceblue,inset -265px 0px 20px rgb(1, 1, 1);
+    position: relative;
+   }
+   .contan .prand-3 p {
+    text-align: center;
+    padding: 10px ;
+    font-size: 20px;
+    text-transform: capitalize;
+    line-height: 1.7;
+    position: absolute;
+    right: 30px;
+    top: 220px;
+   }
+   .contan .prand-3  .one {
+    font-size: 25px;
+    font-weight: bold;
+   }
+   .contan .prand-3  .two {
+    font-size: 45px;
+    font-weight: bolder;
+   }
+   .contan .prand-3  .three a {
+    padding: 5px;
+    text-decoration: none; 
+    border: 1px solid rgb(0, 136, 255);
+    border-radius: 10px;
+    color: rgb(0, 136, 255);
+   }
+   .contan .prand-3  .three a:hover{
+    color: #e93e63;
+    border-color: #e93e63;
+    box-shadow: 0px 0px 8px aliceblue;
+   }

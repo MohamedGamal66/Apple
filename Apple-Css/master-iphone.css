@@ -1,0 +1,136 @@
+body{
+    background-image: linear-gradient(180deg,black,rgb(50, 49, 49),#e93e63);
+    background-repeat: no-repeat;
+    color: aliceblue;
+    font-family: sans-serif;
+    margin: 0px;
+    }
+    /* this is contanir style */
+    .contan {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    /* this a header style */
+    .header {
+        width: 100%px;
+        height: 40px;
+        margin: 8px 18px;
+        box-shadow: 0px 0px 5px aliceblue;
+        border-radius: 15px;
+        
+    }
+    .contan .header .nav {
+        width: inherit;
+        height: inherit;
+        padding: 0px;
+        margin: 0px auto;
+        list-style: none;
+    }
+    .contan .header .nav li {
+        padding: 8px 0px;
+        float: left;
+        text-align: center;
+        font-size: 18px;
+        width: calc((100% - 55px)/11);
+        cursor: pointer;
+        margin-left: 5px;
+    
+    }
+    .contan .header .nav li a {
+        text-decoration: none;
+        color: aliceblue;
+    }
+    .contan .header .nav li :hover{
+        color: #e93e63; cursor: pointer;
+    }
+    .contan .header .nav li img {
+        height: 25px;
+        width: 25px;
+    }
+    /* this a content-1 style*/
+    .content-1 {
+        width: 100%;
+        margin: 50px 0px;
+        background-color: transparent;
+        background-repeat: no-repeat;
+        height: 850px;
+        box-shadow: 0px 0px 40px aliceblue;
+        position: relative;
+        background-color: rgb(255, 254, 253);
+        background-image: url(../Apple-media/99802812.jpg);
+        background-size: 1350px 600px;
+        background-position-y: 250px;
+    }
+    .content-1 p {
+        color: rgb(136, 128, 128);
+        text-align: center;
+        padding-top: 20px;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 1.7;
+    }
+    .content-1 p .one {
+        font-size: 30px;
+        color: black;
+    }
+    .content-1 p .two {
+        font-size: 50px;
+        color: black;
+    }
+    .content-1 p a {
+        text-decoration: none;
+    }
+    .content-1 p .three a {
+        border-radius: 15px;
+        color: aliceblue;
+        background-color: rgb(0, 179, 255);
+        padding: 5px;
+        box-shadow: 0px 0px 3px black;
+        font-weight: 1;
+    }
+    .content-1 p .three a:hover {
+        border: 1.5px solid black;
+    }
+        /* this a content-2 style*/
+        .content-2 {
+            width: 100%;
+            margin: 50px 0px;
+            background-color: transparent;
+            background-repeat: no-repeat;
+            height: 850px;
+            box-shadow: 0px 0px 40px aliceblue;
+            position: relative;
+            background-color: black;
+            background-image: url(../Apple-media/FwAzcjnX0AE07KO.jpg);
+            background-size: 1150px 600px;
+            background-position-y: 250px;
+            background-position-x: 100px;
+        }
+        .content-2 p {
+            color: aliceblue;
+            text-align: center;
+            padding-top: 20px;
+            font-size: 20px;
+            font-weight: bold;
+            line-height: 1.7;
+        }
+        .content-2 p .two {
+            font-size: 50px;
+        }
+        .content-2 p a {
+            text-decoration: none;
+        }
+        .content-2 p .three a {
+            border-radius: 15px;
+            color: aliceblue;
+            background-color: rgb(0, 179, 255);
+            padding: 5px;
+            box-shadow: 0px 0px 3px black;
+            font-weight: 1;
+            margin-top: 30px;
+            display: inline-block;
+        }
+        .content-2 p .three a:hover {
+            border: 1.5px solid black;
+        }

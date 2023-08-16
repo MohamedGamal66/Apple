@@ -1,0 +1,225 @@
+body {
+    background-image: linear-gradient(180deg,black,rgb(50, 49, 49),#e93e63);
+    background-repeat: no-repeat;
+    color: aliceblue;
+    font-family: sans-serif;
+}
+.contan {
+    width: 100%;
+    height: 673px;
+    position: relative;
+}
+.header {
+    width: 100%px;
+    height: 40px;
+    margin: 8px 18px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px aliceblue;
+    
+}
+.contan .header .nav {
+    width: inherit;
+    height: inherit;
+    padding: 0px;
+    margin: 0px auto;
+    list-style: none;
+}
+.contan .header .nav li {
+    padding: 8px 0px;
+    float: left;
+    text-align: center;
+    font-size: 18px;
+    width: calc((100% - 55px)/11);
+    cursor: pointer;
+    margin-left: 5px;
+}
+.contan .header .nav li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+.contan .header .nav li :hover {
+    color: #e93e63; cursor: pointer;  
+}
+.contan .header .nav li img {
+    height: 25px;
+    width: 25px;
+}
+.store-prod {
+    width: 100%;
+    height: 600px;
+    margin: 25px auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px aliceblue;
+    position: relative;
+}
+.prod-bar-1 img{
+    width: 110px;
+    height: 110px;
+    margin: 15px 15px;
+    /* border-radius: 15px;
+    box-shadow: 0px 0px 10px aliceblue; */
+}
+.prod-bar-1{
+    margin: 0px 80px;
+}
+.prod-bar-1 div {
+    float:left ;
+    text-align: center;
+}
+.prod-bar-1 div p:hover{
+    color: #e93e63;
+    cursor: pointer;
+}
+/* the arrow 1 style */
+button {
+    -webkit-appearance: none;
+    background: transparent;
+    border: 0;
+    outline:0;
+  }
+  
+  svg {
+    padding: 5px;
+  }
+  
+  .arrow-right-1
+  ,.arrow-left-1 {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin-top: -45px;
+    margin-left: -35px;
+    width: 70px;
+    height: 90px;
+  }
+  
+  .arrow-left-1 {
+    left: 32px;
+    top: 125px;
+  }
+  
+  .arrow-right-1 {
+    right: 10px;
+    top: 125px;
+  }
+  
+  .arrow-left-1:hover polyline,
+  .arrow-left-1:focus polyline {
+    stroke-width: 3;
+  }
+  
+  .arrow-left-1:active polyline {
+    stroke-width: 6;
+    transition: all 100ms ease-in-out;
+  }
+  
+  .arrow-right-1:hover polyline,
+  .arrow-right-1:focus polyline {
+    stroke-width: 3;
+  }
+  
+  .arrow-right-1:active polyline {
+    stroke-width: 6;
+    transition: all 100ms ease-in-out;
+  }
+  
+  polyline {
+    transition: all 250ms ease-in-out;
+  }
+.store-prod hr{
+    position: absolute;
+    top:225px;
+    right: 100px;
+    width: 1110px;
+    box-shadow: 0px 0px 10px aliceblue;
+}
+/* the arrow 2 style */
+.arrow-right-2
+,.arrow-left-2 {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  margin-top: -45px;
+  margin-left: -35px;
+  width: 70px;
+  height: 90px;
+}
+
+.arrow-left-2 {
+  left: 32px;
+  top: 180px;
+}
+
+.arrow-right-2 {
+  right: 10px;
+  top: 178px;
+}
+
+.arrow-left-2:hover polyline,
+.arrow-left-2:focus polyline {
+  stroke-width: 3;
+}
+
+.arrow-left-2:active polyline {
+  stroke-width: 6;
+  transition: all 100ms ease-in-out;
+}
+
+.arrow-right-2:hover polyline,
+.arrow-right-2:focus polyline {
+  stroke-width: 3;
+}
+
+.arrow-right-2:active polyline {
+  stroke-width: 6;
+  transition: all 100ms ease-in-out;
+}
+
+polyline {
+  transition: all 250ms ease-in-out;
+}
+.prod-bar-2 {
+    width: 1270px;
+    height: 320px;
+    position: absolute;
+    left: 20px;
+    top: 260px;
+}
+.prod-bar-2 div {
+    float: left;
+    margin-left: 74px;
+    margin-top: 20px;
+    width: calc((950px - 45px)/3);
+    height: 280px;
+}
+.prod-bar-2 
+.one
+,.two 
+,.three {
+    padding: 10px;
+    color: rgb(154, 159, 161);
+    line-height: 1.7;
+    border-radius: 15px;  
+    background-size: 340px 300px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.prod-bar-2 span {
+    font-size: larger;
+    color: black;
+}
+.prod-bar-2 .one {
+    background-image: url(../Apple-media/store-card-40-mothers-day-202303.jpg);
+}
+.prod-bar-2 .two {
+    background-image: url(../Apple-media/store-card-40-iphone-14-202303_GEO_US.jpg);
+    line-height: 1.5;
+}
+.prod-bar-2 .three {
+    background-image: url(../Apple-media/store-card-40-ipad-202210.jpg);
+}
+.one:hover,
+.two:hover,
+.three:hover {
+  border: 2px solid rgba(0, 0, 0, 0.71);
+}

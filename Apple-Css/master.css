@@ -1,0 +1,107 @@
+body{
+background-image: linear-gradient(180deg,black,rgb(50, 49, 49),#e93e63);
+background-repeat: no-repeat;
+color: aliceblue;
+font-family: sans-serif;
+margin: 0px;
+}
+/* this is contanir style */
+.contan {
+    width: 100%;
+    height: 687px;
+    position: relative;
+
+}
+/* this a header style */
+.header {
+    width: 100%px;
+    height: 40px;
+    margin: 8px 18px;
+    box-shadow: 0px 0px 5px aliceblue;
+    border-radius: 15px;
+    
+}
+.contan .header .nav {
+    width: inherit;
+    height: inherit;
+    padding: 0px;
+    margin: 0px auto;
+    list-style: none;
+}
+.contan .header .nav li {
+    padding: 8px 0px;
+    float: left;
+    text-align: center;
+    font-size: 18px;
+    width: calc((100% - 55px)/11);
+    cursor: pointer;
+    margin-left: 5px;
+
+}
+.contan .header .nav li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+.contan .header .nav li :hover{
+    color: #e93e63; cursor: pointer;
+}
+.contan .header .nav li img {
+    height: 25px;
+    width: 25px;
+}
+/*this is first content*/
+.para {
+    margin: 200px 150px;
+    font-size: 40px;
+    text-shadow: 0px 0.5px 3px aliceblue;
+}
+.para p span {
+   font-size: 60px; 
+   color:aliceblue;
+}
+.para p img {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 98px;
+    top: 244px;
+}
+button {
+    height: 50px;
+    width: 180px;
+    margin-left: 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px aliceblue;
+    font-size: 25px;
+}
+button a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    color: #e93e63;
+}
+button:hover {
+    border: 2px solid black;
+}
+.img {
+    width: 270px;
+    height: 333px;
+    position: absolute;
+    bottom: 170px;
+    right: 150px;
+    background-image: url(../Apple-media/61HHS0HrjpL._AC_UF1000_1000_QL80_-removebg-preview.JPG);
+    background-size: 270px;
+}
+.stedg {
+    width: 310px;
+    height:35px;
+    background-color: rgba(240, 248, 255, 0.815);
+    position: absolute;
+    border-radius: 50%;
+    bottom: 124px;
+    right: 132px;
+    box-shadow: 0px 15px 10px rgba(240, 248, 255, 0.936);
+}
